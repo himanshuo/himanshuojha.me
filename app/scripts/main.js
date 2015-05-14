@@ -57,7 +57,13 @@ jQuery(document).ready(function($) {
 
 
 
-    /**/
+    /*scrollbar*/
+     $("body").mCustomScrollbar({
+                theme:"minimal-dark"
+            });
+    $("#ghfeed").mCustomScrollbar({
+                theme:"3d"
+            });
 
 
 });
