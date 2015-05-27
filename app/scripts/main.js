@@ -58,7 +58,7 @@ jQuery(document).ready(function($) {
 
 
     /*scrollbar*/
-     $("body").mCustomScrollbar({
+     $("html").mCustomScrollbar({
                 theme:"minimal-dark"
             });
     $("#ghfeed").mCustomScrollbar({
